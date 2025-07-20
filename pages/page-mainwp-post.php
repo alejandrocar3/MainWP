@@ -27,7 +27,7 @@ class MainWP_Post {
 		 * This hook is normally used in the same context of 'mainwp-getsubpages-post'
 		 * @link http://codex.mainwp.com/#mainwp-getsubpages-post
 		 *
-		 * @see \MainWP_Post::renderFooter
+		 * @see \MainWP_Post::renderFoter
 		 */
 		add_action( 'mainwp-pagefooter-post', array( MainWP_Post::getClassName(), 'renderFooter' ) );
 
