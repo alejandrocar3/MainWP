@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 function liveReportsResponderClasses() {
 	if ( file_exists( '../class/class-mainwp-creport.php' ) ) {
